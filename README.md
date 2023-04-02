@@ -1,12 +1,12 @@
 `TODO: Add a nice screenshot of the app!`
 
-# Class XX final project
+# Class 40 final project
 
 This is the final project for the HackYourFuture curriculum we did as a class using the MERN stack by following the agile methodology with our team and a group of mentors. A quick guide to what we built:
 
-> TODO: Add short description of the app
+How about traveling together? If you want to go to a new place but do not know anything about it, TRAVEL2GETHER is here for you. By searching for your next destination, you can find comments and tips about there. Also, do not forget to write a comment about the places you have traveled and share your experiences.
 
-https://c40-team-monday.herokuapp.com/login 
+https://c40-team-monday.herokuapp.com 
 
 ## 1. Setup
 
