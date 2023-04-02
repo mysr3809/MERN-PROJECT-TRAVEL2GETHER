@@ -1,32 +1,38 @@
-import * as React from "react";
-import PropTypes from "prop-types";
-import Card from "@mui/material/Card";
-import CardActions from "@mui/material/CardActions";
-import CardContent from "@mui/material/CardContent";
-import CardMedia from "@mui/material/CardMedia";
-import Typography from "@mui/material/Typography";
-import LinkedInIcon from "@mui/icons-material/LinkedIn";
-import GitHubIcon from "@mui/icons-material/GitHub";
+/* eslint-disable quotes */
+import * as React from 'react';
+import PropTypes from 'prop-types';
+import Card from '@mui/material/Card';
+import CardActions from '@mui/material/CardActions';
+import CardContent from '@mui/material/CardContent';
+import CardMedia from '@mui/material/CardMedia';
+import Typography from '@mui/material/Typography';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import GitHubIcon from '@mui/icons-material/GitHub';
 
 export default function CardMui({ title, img, description, linkedIn, github }) {
   return (
     <Card
       sx={{ maxWidth: 345 }}
       style={{
-        background: "rgba(255,255,255,0.1)",
-        color: "white",
-        backdropFilter: "blur(10px)",
+        background: 'rgba(255,255,255,0.1)',
+        color: 'white',
+        backdropFilter: 'blur(10px)',
       }}
     >
       <CardMedia component="img" alt="person" height="240" image={img} />
       <CardContent>
-        <Typography gutterBottom variant="h5" component="div">
+        <Typography
+          gutterBottom
+          variant="h5"
+          component="div"
+          style={{ color: 'black' }}
+        >
           {title}
         </Typography>
         <Typography
           variant="body2"
           color="text.secondary"
-          style={{ color: "white" }}
+          style={{ color: 'grey' }}
         >
           {description}
         </Typography>
@@ -34,10 +40,10 @@ export default function CardMui({ title, img, description, linkedIn, github }) {
       <CardActions>
         <div>
           <a href={linkedIn} target="_blank" rel="noreferrer">
-            <LinkedInIcon style={{ color: "white" }} />
+            <LinkedInIcon style={{ color: 'darkblue' }} />
           </a>
           <a href={github} target="_blank" rel="noreferrer">
-            <GitHubIcon style={{ color: "white" }} />
+            <GitHubIcon style={{ color: 'black' }} />
           </a>
         </div>
       </CardActions>
